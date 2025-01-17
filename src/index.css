@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.events-slider .swiper-button-next,
+.events-slider .swiper-button-prev {
+  color: #373CFA !important;
+  transform: scale(0.7);
+  top: calc(50% - 15px) !important;
+  height: 30px !important;
+}
+
+.events-slider .swiper-button-prev {
+  left: 0 !important;
+}
+
+.events-slider .swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #373CFA !important;
+}
+
+.swiper-pagination {
+  margin-top: 20px !important;
+  position: relative !important;
+}
