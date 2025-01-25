@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/ditu">
       <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
         {/* Dark Mode Switch */}
         <div className="fixed top-4 right-4 z-50">
