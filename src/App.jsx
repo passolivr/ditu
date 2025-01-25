@@ -207,6 +207,7 @@ function App() {
                     </div>
                   </div>
                 </section>
+
               </main>
               {/* Footer */}
               <footer className={`py-6 ${darkMode ? 'bg-gray-800 text-gray-200' : 'bg-[#373CFA] text-white'}`}>
